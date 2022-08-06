@@ -7,19 +7,41 @@
     <title>University application form</title>
 </head>
 <body>
-    <h1>Ghana School of Technology Application Form</h1> 
-    <h3><em>(Make sure to complete the form before submitting)</em></h3>
-    <form action="">
-        <label for="firstname">Firstname:</label> <input type="text" required> <br>
-        <label for="lastname">Lastname:</label> <input type="text" required> <br>
-        <label for="email">Email:</label> <input type="email" required> <br>
-        <fieldset>
-            <legend>What's your age range?</legend>
-            <input type="radio" name="age"> <label for="ageRange">18-24</label> <br> 
-            <input type="radio" name="age"> <label for="ageRange">25-30</label> <br>
-            <input type="radio" name="age"> <label for="ageRange">31-35</label> 
-        </fieldset>
-        
-    </form>
+    <main>
+        <h1>International Student Application Form</h1> 
+        <h3>Please fill the form below correctly</h3>
+        <form action="">
+        <section>
+        <label for="Name">Name:</label><br>
+        <input type="text" placeholder="First Name" required> <input type="text" placeholder="Last Name" required><br><br>
+        <label for="Birthday">Date of Birth:</label><br>
+        <input type="date" name="date" id="date" required><br><br>
+        <label for="Age">Age:</label>
+        <input type="number" min="13" max="90" required><br><br>
+        <label for="Gender">Gender:</label><br>
+        <input type="radio" name="gender" id="male"> <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female"> <label for="female">Female</label><br><br>
+        <label for="origin">Country of Birth:</label><br>
+        <input type="text"><br><br>
+        <label for="nationality">Nationality:</label><br>
+        <input type="text"><br><br>
+        <label for="languages">Language(s) spoken at home:</label><br>
+        <input type="text">
+        </section>
+        <section>
+            <h2>Permanent Contact Details</h2><br>
+            <label for="homeAddress"><strong>Permanent Home Address (e.g. overseas address)</strong></label><br><br>
+            <input type="text" placeholder="Street Address"><br><br>
+            <input type="text" placeholder="Street Address Line 2"><br><br>
+            <input type="text" placeholder="City">
+            <input type="text" placeholder="State/Province"><br><br>
+            <input type="text" placeholder="Postal/Zip Code">
+            <input type="text" placeholder="Country"><br><br>
+            <p><strong>Mailing Address</strong></p>
+            <input type="radio" id="same" name="mailingAddress"> <label for="same">Same as above</label><br>
+            <input type="radio" id="different" name="mailingAddress"> <label for="different">Add a different mailing address</label>
+        </section>
+        </form>
+    </main>
 </body>
 </html>
