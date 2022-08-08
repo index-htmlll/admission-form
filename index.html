@@ -16,37 +16,40 @@
         <form action="">
         <section>
         <label class="designation" for="Name">Name</label><br>
-        <input class="sideSpace shortInput" type="text" placeholder="First Name" required> <input type="text" placeholder="Last Name" required><br>
+        <input class="sideSpace shortInput" type="text" placeholder="First Name" required> <input class="sideSpace" type="text" placeholder="Last Name" required><br>
         <label class="designation" for="Birthday">Date of Birth</label><br>
-        <input type="date" name="date" id="date" required><br><br>
-        <label for="Age">Age:</label>
-        <input type="number" min="13" max="90" required><br><br>
-        <label for="Gender">Gender:</label><br>
+        <input class="sideSpace" type="date" name="date" id="date" required><br>
+        <label class="designation" for="Age">Age</label><br>
+        <input class="sideSpace" type="number" min="13" max="90" required placeholder="ex: 23"><br>
+        <label class="designation" for="Gender">Gender</label><br>
+        <article class="sideSpace">
         <input type="radio" name="gender" id="male"> <label for="male">Male</label><br>
-        <input type="radio" name="gender" id="female"> <label for="female">Female</label><br><br>
-        <label for="origin">Country of Birth:</label><br>
-        <input type="text"><br><br>
-        <label for="nationality">Nationality:</label><br>
-        <input type="text"><br><br>
-        <label for="languages">Language(s) spoken at home:</label><br>
-        <input type="text">
+        <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+        </article>
+        <label class="designation" for="origin">Country of Birth</label><br>
+        <input class="sideSpace" type="text"><br>
+        <label class="designation" for="nationality">Nationality</label><br>
+        <input class="sideSpace" type="text"><br>
+        <label class="designation" for="languages">Language(s) spoken at home</label><br>
+        <input class="sideSpace" type="text">
         </section>
-        <br>
+        <hr>
         <section>
-            <h2>Permanent Contact Details</h2><br>
+            <h2>Permanent Contact Details</h2>
+            <hr>
             <label for="homeAddress"><strong>Permanent Home Address (e.g. overseas address)</strong></label><br><br>
-            <input type="text" placeholder="Street Address"><br><br>
-            <input type="text" placeholder="Street Address Line 2"><br><br>
+            <input class="longBox" type="text" placeholder="Street Address"><br><br>
+            <input class="longBox" type="text" placeholder="Street Address Line 2"><br><br>
             <input type="text" placeholder="City">
             <input type="text" placeholder="State/Province"><br><br>
             <input type="text" placeholder="Postal/Zip Code">
             <input type="text" placeholder="Country"><br><br>
-            <p><strong>Mailing Address</strong></p>
+            <p class="designation">Mailing Address</p>
             <input type="radio" id="same" name="mailingAddress"> <label for="same">Same as above</label><br>
             <input type="radio" id="different" name="mailingAddress"> <label for="different">Add a different mailing address</label><br>
-            <h3>Residential Mailing Address</h3>
-            <input type="text" placeholder="Street Address"><br><br>
-            <input type="text" placeholder="Street Address Line 2"><br><br>
+            <p class="designation">Residential Mailing Address</p>
+            <input class="longBox" type="text" placeholder="Street Address"><br><br>
+            <input class="longBox" type="text" placeholder="Street Address Line 2"><br><br>
             <input type="text" placeholder="City">
             <input type="text" placeholder="State/Province"><br><br>
             <input type="text" placeholder="Postal/Zip Code">
