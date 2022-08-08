@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>University application form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main>
-        <h1>International Student Application Form</h1> 
-        <h3>Please fill the form below correctly</h3>
+        <div>
+            <h1>International Student Application Form</h1> 
+        <p class="caution">Please fill the form below correctly</p>
+        <hr>
         <form action="">
         <section>
-        <label for="Name">Name:</label><br>
-        <input type="text" placeholder="First Name" required> <input type="text" placeholder="Last Name" required><br><br>
-        <label for="Birthday">Date of Birth:</label><br>
+        <label class="designation" for="Name">Name</label><br>
+        <input class="sideSpace shortInput" type="text" placeholder="First Name" required> <input type="text" placeholder="Last Name" required><br>
+        <label class="designation" for="Birthday">Date of Birth</label><br>
         <input type="date" name="date" id="date" required><br><br>
         <label for="Age">Age:</label>
         <input type="number" min="13" max="90" required><br><br>
@@ -81,6 +84,7 @@
             <button type="reset">Reset</button>
         </section>
         </form>
+        </div>
     </main>
 </body>
 </html>
