@@ -32,10 +32,16 @@ margin-left: 0;
     font-weight: bold;
 }
 
+.longBox {
+    width: 350px;
+}
+
 .shortInput {
     width: 100px;
 }
 
 .sideSpace {
     margin-right: 5px;
-}
+    margin-top: 15px;
+    margin-bottom: 30px;
+} 
