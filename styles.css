@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+}
+
+#main-body {
+    padding: 50px 100px;
+    margin: 100px auto;
+    background-color: white;
+    width: 600px;
+    max-width: 700px;
+    min-width: 100px;
+    box-shadow: 0 0 10px 1px #5A5C5E;
+}
