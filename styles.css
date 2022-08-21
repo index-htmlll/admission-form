@@ -8,7 +8,7 @@ h1 {
 }
 
 hr {
-    margin: 40px auto;
+    margin: 30px auto;
     border-top-width: 1px;
     border-bottom: 0;
     border-left: 0;
@@ -16,9 +16,24 @@ hr {
     border-color: #ffffff;
 }
 
+
+/* CLASSES */
+
+.designation {
+    font-weight: bold;
+}
+
+/* IDs */
+
 #caution {
     margin: 0;
 }
+
+#first-name, #last-name, #date , #age {
+    box-sizing: border-box;
+    width: 100%;
+}
+
 
 #main-body {
     padding: 50px;
