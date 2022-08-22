@@ -29,7 +29,7 @@ hr {
     margin: 0;
 }
 
-#first-name, #last-name, #date , #age {
+#first-name, #last-name, #date, #age, #birth-country, #nationality, #languages {
     box-sizing: border-box;
     width: 100%;
 }
