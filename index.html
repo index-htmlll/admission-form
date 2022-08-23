@@ -348,11 +348,12 @@
                 />
         </div>
         <hr />
-        <h2>Permanent Contact Details</h2>
+        <h2>Contact Details</h2>
         <hr />
         <div id="home-address-div">
-            <label for="street-address">
+            <label class="designation" for="street-address">
                 Permanent Home Address (e.g. overseas address)
+            </label>
                 <input 
                 id="street-address" 
                 type="text"
@@ -369,7 +370,7 @@
                 placeholder="City"
                 />
                 <input
-                id="State"
+                id="state"
                 type="text"
                 placeholder="State / Province"
                 />
@@ -633,10 +634,9 @@
                     <option value="ZM">Zambia</option>
                     <option value="ZW">Zimbabwe</option>
                 </select>
-            </label>
         </div>
         <div id="mailing-address-div">
-            <p>Mailing Address</p>
+            <p class="designation">Mailing Address</p>
             <input
             id="same-address"
             type="radio"
@@ -653,8 +653,9 @@
             </label>
         </div>
         <div id="residential-address-div">
-            <label for="residential-address">
+            <label class="designation" for="residential-address">
                 Residential Mailing Address
+            </label>
                 <input 
                 id="street-address-r" 
                 type="text"
@@ -671,7 +672,7 @@
                 placeholder="City"
                 />
                 <input
-                id="State-r"
+                id="state-r"
                 type="text"
                 placeholder="State / Province"
                 />
@@ -935,33 +936,32 @@
                     <option value="ZM">Zambia</option>
                     <option value="ZW">Zimbabwe</option>
                 </select>
-            </label>
         </div>
         <div id="phone-mobile-email">
-            <label for="phone">
+            <label class="designation" for="phone">
                 Phone
+            </label>
                 <input
                 id="phone"
                 type="number"
                 required
                 />
-            </label>
-            <label for="mobile">
+            <label class="designation" for="mobile">
                 Mobile
+            </label>
                 <input
                 id="mobile"
                 type="number"
                 />
-            </label>
-            <label for="email">
+            <label class="designation" for="email">
                 Email
+            </label>
                 <input
                 id="email"
                 type="email"
                 placeholder="ex: myname@example.com"
                 required
                 />
-            </label>
         </div>
         <div id="disability-div">
             <p>Do you suffer from any medical condition/disability that may affect your studies?</p>

@@ -29,7 +29,9 @@ hr {
     margin: 0;
 }
 
-#first-name, #last-name, #date, #age, #birth-country, #nationality, #languages {
+#first-name, #last-name, #date, #age, #birth-country, #nationality, #languages, #street-address,
+#street-address-2, #city, #state, #zip-code, #resident-country, #street-address-r, #street-address-r-2,
+#city-r, #state-r, #zip-code-r, #resident-country-r, #phone, #mobile, #email {
     box-sizing: border-box;
     width: 100%;
 }
